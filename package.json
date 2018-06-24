@@ -1,0 +1,31 @@
+{
+  "name": "inputize",
+  "version": "0.0.1",
+  "description": "A jQuery plugin to transform any tag into a form element to collect user input.",
+  "main": "inputize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/brunolange/inputize.git"
+  },
+  "keywords": [
+    "jquery",
+    "input",
+    "form"
+  ],
+  "author": "Bruno Lange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/brunolange/inputize/issues"
+  },
+  "homepage": "https://gitlab.com/brunolange/inputize#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^3.3.0"
+  }
+}
