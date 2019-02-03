@@ -14,8 +14,8 @@
                 .split('.')
                 .reduce(function(item, k){
                     if (typeof item === 'object' &&
-                        item.hasOwnProperty(k)
-                        && item[k] !== null)
+                        item.hasOwnProperty(k) &&
+                        item[k] !== null)
                         return item[k];
                     return fallback;
                 }, data)
