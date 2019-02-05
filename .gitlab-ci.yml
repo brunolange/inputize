@@ -2,7 +2,7 @@ image: node:latest
 
 before_script:
   - npm install
-  - npm install grunt-cli
+  - npm install -g grunt-cli
 
 stages:
   - build
