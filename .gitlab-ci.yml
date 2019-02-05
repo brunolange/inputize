@@ -1,0 +1,15 @@
+image: node:latest
+
+before_script:
+  - npm install
+  - npm install -g grunt-cli
+
+stages:
+  - build
+
+uglify:
+  stage: build
+  script: grunt uglify
+  artifacts:
+    paths:
+    - build/inputize.min.js
